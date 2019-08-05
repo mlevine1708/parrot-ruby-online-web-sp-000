@@ -2,8 +2,8 @@ require_relative './spec_helper'
 require_relative '../parrot.rb' # Code your solution in this file
 
 def parrot(string)
-  parrot puts "Squawk!"
-  "Squawk!"
+   puts "Squawk!"
+  parrot("Squawk!")
 end
 
 describe '#parrot' do
